@@ -1,0 +1,242 @@
+/*---------------------------------------------------header----------------------------------------------------*/
+
+header {
+	top: 0;
+	height: 3rem;
+	background: rgb(41,189,224);
+	border: none;
+}
+header .goback {
+	margin-top: .75rem;
+}
+header > .help {
+	float: right;
+	margin: .75rem .75rem 0 0;
+	width: 1.5rem;
+	height: 1.5rem;
+	cursor: pointer;
+}
+header > div {
+	margin-top: .2rem;
+	font-size: 1rem;
+}
+
+
+/*----------------------------------------------------main-----------------------------------------------------*/
+
+/*玩家配比*/
+.mainheader {
+	margin: 4rem auto;
+	width: 95%;
+	height: 40vh;
+	background: white;
+}
+.player {
+	padding-top: 12vh;
+	width: 20%;
+	height: 100%;
+	font-size: 1.1rem;
+	text-align: center;
+}
+.number {
+	float: right;
+	margin-top: -52vh;
+	width: 80%;
+	height: 80%;
+	font-size: .9rem;
+	text-align: center;
+	background: rgb(251,251,251);
+	border-left: 1px solid rgb(217,217,217);
+}
+.number > div {
+	display: inline-block;
+	width: 10px;
+	height: 0;
+}
+.number > div:first-child {
+	margin-top: 8vh;
+	border-top: 10px solid orange;
+}
+.number > div:nth-child(6) {
+	margin-top: 5vh;
+	border-top: 10px solid rgb(41,189,224);
+}
+.number > div:nth-child(11) {
+	margin-top: 5vh;
+	border-top: 10px solid orange;
+}
+.clickset {
+	float: right;
+	margin-top: -20vh;
+	width: 80%;
+	height: 20%;
+	font-size: .9rem;
+	color: rgb(41,189,224);
+	line-height: 8vh;
+	text-align: center;
+	background: rgb(251,251,251);
+	border-top: 1px solid rgb(217,217,217);
+	border-left: 1px solid rgb(217,217,217);
+}
+.click {
+	cursor: pointer;
+}
+.pencil {
+	width: 0.6rem;
+	height: 0.6rem;
+	cursor: pointer;
+}
+
+/*猜词部分*/
+.mainbody {
+	margin: -3.2rem auto;
+	width: 95%;
+	height: 17vh;
+	background: white;
+}
+.word {
+	margin-left: 5%;
+	width: 90%;
+	height: 7vh;
+	font-size: 1rem;
+	border: none;
+	border-bottom: 1px solid lightgray;
+	outline: none;
+}
+input::-webkit-input-placeholder {
+    color: lightgray;
+}
+
+/*人数设置*/
+.mainfooter {
+	position: relative;
+	margin: 4rem auto;
+	padding-top: 1rem;
+	width: 95%;
+	height: 15vh;
+	font-size: .9rem;
+	text-align: center;
+	background: white;
+}
+.playernumber {
+	width: 2.5rem;
+	font-size: 1rem;
+	color: orange;
+	text-align: center;
+	background: rgb(244,245,245);
+	border: none;
+	outline: none;
+}
+.tip {
+	font-size: .8rem;
+	color: orange;
+}
+.minus, .plus {
+	display: inline-block;
+	margin-top: 3vh;
+	padding-right: .1rem;
+	width: 1.1rem;
+	height: 1.1rem;
+	font-size: 1.2rem;
+	color: orange;
+	line-height: 1rem;
+	font-weight: bold;
+	border: 1px solid lightgray;
+	cursor: pointer;
+}
+.plus {
+	padding: 0;
+}
+.line1, .line2 {
+	position: absolute;
+	top: 8.7vh;
+	z-index: 1;
+	height: .2rem;
+	cursor: pointer;
+}
+.line1 {
+	left: 18.5%;
+	width: 0;
+	background: orange;
+}
+.line2 {
+	right: 18.5%;
+	width: 63%;
+	background: rgb(255,230,190);
+}
+.slide {
+	position: relative;
+	top: -0.3rem;
+	z-index: 3;
+	margin: 0 1rem;
+	width: 63%;
+	height: 0.3rem;
+	opacity: 0;
+	cursor: pointer;
+	outline: none;
+}
+.img {
+	position: absolute;
+	top: 9.4vh;
+	left: 18.5%;
+	z-index: 2;
+	margin-top: -1rem;
+	width: 2.8rem;
+	height: 1.5rem;
+	cursor: pointer;
+}
+@media screen and (max-height: 730px) {
+    .line1, .line2 {
+    	top: 9.5vh;
+    }
+    .img {
+		top: 10.2vh;
+    }
+}
+@media screen and (max-height: 690px) {
+    .line1, .line2 {
+    	top: 9.7vh;
+    }
+    .img {
+		top: 10.4vh;
+    }
+}
+@media screen and (max-height: 650px) {
+    .line1, .line2 {
+    	top: 10vh;
+    }
+    .img {
+		top: 10.7vh;
+    }
+}
+@media screen and (max-height: 610px) {
+    .line1, .line2 {
+    	top: 10.6vh;
+    }
+    .img {
+		top: 11.5vh;
+    }
+}
+@media screen and (max-height: 570px) {
+    .line1, .line2 {
+    	top: 11.1vh;
+    }
+    .img {
+		top: 12vh;
+    }
+}
+@media screen and (max-height: 530px) {
+    .line1, .line2 {
+    	top: 11.5vh;
+    }
+    .img {
+		top: 12.5vh;
+    }
+}
+
+
+/*---------------------------------------------------footer----------------------------------------------------*/
+
+footer {
+	height: 13vh !important;
+}

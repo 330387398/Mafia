@@ -1,0 +1,70 @@
+/*--------------------------------------------------reset css--------------------------------------------------*/
+
+body { background: rgb(41,189,224); }
+
+
+/*----------------------------------------------------main-----------------------------------------------------*/
+
+main {
+	cursor: pointer;
+}
+.border {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	margin: -12.65rem 0 0 -1.3rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	font-size: 1.4rem;
+	color: rgb(245,107,129);
+	font-weight: bold;
+	text-align: center;
+}
+.background {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	margin: -12.8rem 0 0 -7.5rem;
+	height: 22rem;
+}
+.emperor {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	margin: -8rem 0 0 -5.1rem;
+	height: 10rem;
+}
+.wow {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	margin: -9rem 0 0 -5.1rem;
+	height: 10rem;
+}
+.text{
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	margin: 2rem 0 0 -1.4rem;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: rgb(41,189,224);
+}
+.active {
+	display: block;
+}
+
+
+/*---------------------------------------------------footer----------------------------------------------------*/
+
+footer > div {
+	display: none;
+}

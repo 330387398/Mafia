@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>人数设置</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../img/icon.ico">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="../css/header.css" />
+	<link rel="stylesheet" type="text/css" href="../css/page2-setNumber.css" />
+	<link rel="stylesheet" type="text/css" href="../css/footer.css" />
+</head>
+<body>
+	<header>
+		<a href="../page1-index.html"><img src="../img/goback.png" class="goback" /></a>
+		<img src="../img/help.png" class="help" />
+		<div>人数设置</div>
+	</header>
+	<main>
+		<div class="mainheader">
+			<div class="player">玩</br>家</br>配</br>比</div>
+			<div class="number">
+				<div class="point"></div>
+				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;警察&nbsp;&nbsp;&nbsp;</span>
+				<span class="police">1</span>
+				<span>&nbsp;&nbsp;&nbsp;人</span>
+				<br/>
+				<div class="point"></div>
+				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;杀手&nbsp;&nbsp;&nbsp;</span>
+				<span class="killer">1</span>
+				<span>&nbsp;&nbsp;&nbsp;人</span>
+				<br/>
+				<div class="point"></div>
+				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;平民&nbsp;&nbsp;&nbsp;</span>
+				<span class="people">2</span>
+				<span>&nbsp;&nbsp;&nbsp;人</span>
+				<br/>
+			</div>
+			<div class="clickset">
+				<span class="click">点击设置&nbsp;&nbsp;</span>
+				<img src="../img/edit.png" class="pencil" />
+			</div>
+		</div>
+		<div class="mainbody">
+			<input type="text" placeholder="水民词组" class="word" />
+			<input type="text" placeholder="幽灵词组" class="word" />
+		</div>
+		<div class="mainfooter">
+			<span>请输入玩家数量：</span>
+			<input type="text" value="4" class="playernumber" />
+			<span class="tip">&nbsp;&nbsp;* 玩家数量为 4-18</span>
+			<br />
+			<div class="minus">-</div>
+			<div class="line1"></div>
+			<input type="range" min="4" max="18" step="1" Value="4" class="slide" />
+			<img src="../img/slider.png" class="img" />
+			<div class="line2"></div>
+			<div class="plus">+</div>
+		</div>
+	</main>
+	<footer><div class="start">去发牌</div></footer>
+	<script src="../js/page2-setNumber.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>游戏结果</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../img/icon.ico">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="../css/page7-result.css" />
+</head>
+<body>
+	<header>
+		<div class="top">				
+			<a href="../page1-index.html"><div class="home"></div></a>
+			<div class="notice"></div>
+			<div class="result">游戏结果</div>
+		</div>
+		<div class="content">
+			<img src="../img/gameover.png" class="gameover" />
+			<div class="leftnumber">
+				<p class="left">剩余玩家：</p>
+				<p class="roleName">警察<span class="police">0</span>人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;杀手<span class="killer">0</span>人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;平民<span class="people">0</span>人</p>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="border">
+		    <p class="row">第 1 天</p>
+		    <div class="time">
+		    	<p>夜晚：<span class="number"></span>号玩家被杀死，Ta的真实身份是<span class="role"></span></p>
+		    	<p class="day">白天：<span class="number"></span>号玩家被投死，Ta的真实身份是<span class="role"></span></p>
+		    </div>
+		</div>
+	</main>
+	<footer>
+		<a href="./page2-setNumber.html"><div class="again">再玩一局</div></a>
+		<div class="upload">上传并分享</div>
+	</footer>
+	<script src="../vendors/jquery.min.js"></script>
+	<script src="../js/playerLeft.js"></script>
+	<script src="../js/page7-result.js"></script>
+</body>
+</html>

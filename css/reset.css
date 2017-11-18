@@ -1,0 +1,10 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: rgb(240,240,240);
+	user-select:none;
+	-moz-user-select:none;
+}
+
+a { text-decoration: none; }
